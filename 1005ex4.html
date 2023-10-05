@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>information</title>
+    <style>
+img {
+    width:40px;
+    height:40px;
+}
+button {
+    width:100px;
+    height:50px;
+}
+
+    </style>
+</head>
+<body>
+    <form action="#">
+    <fieldset>
+        <legend>기본정보</legend>
+        <p>
+            <label for="id">아이디</label>
+            <input type="text" id="id" value="kokokorkr" readonly>
+        </p>
+        <p>
+            <label for="pass">패스워드</label>
+            <input type="text" id="pass">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>세부 정보</legend>
+        <p>
+            <label for="email">이메일</label>
+            <input type="email" id="email" placeholder="@를 넣어야 됩니다.">
+        </p>
+        <p>
+            <label for="tel">전화번호</label>
+            <input type="tel" id="tel" placeholder="하이픈을 넣지 마세요.">
+        </p>
+        <p>
+            <label for="age">나이</label>
+            <input type="number" id="age">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>주소 입력</legend>
+            <label for="city">도시</label>
+            <select id ="city" style="width:100px">
+                <option value="강남구">강남구</option>
+                <option value="강북구">강북구</option>
+                <option value="서초구">서초구</option>
+                <option value="중원구">중원구</option>
+                <option value="분당구">분당구</option>
+            </select>
+    </fieldset>
+    <fieldset>
+        <legend>성별</legend>
+        <p>
+            <label for="gender">남성</label>
+            <input type="radio" id="male" name="gender">
+            <label for="gender">여성</label>
+            <input type="radio" id="female" name="gender">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>직업</legend>
+        <p>
+            <label for="job">학생</label>
+            <input type="radio" id="student" name="job">
+            <label for="job">회사원</label>
+            <input type="radio" id="salman" name="job">
+            <label for="job">주부</label>
+            <input type="radio" id="home" name="job">
+            <label for="job">무직</label>
+            <input type="radio" id="nothing" name="job">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>취미를 선택하세요.</legend>
+        <p>
+            <label for="hobby">운동</label>
+            <input type="radio" id="traning" name="hobby">
+            <label for="hobby">음악</label>
+            <input type="radio" id="music" name="hobby" checked>
+            <label for="hobby">그림</label>
+            <input type="radio" id="paint" name="hobby">
+        </p>
+    </fieldset>
+    <label for="enterdate">가입일</label>
+    <input type="date" id="enterdate" style="width:150px">
+    <p>
+    <label for="introduce">소개글</label>
+    </p>
+    <textarea name="" id="" cols="50" rows="10"></textarea>
+    <p>
+
+   <form action="">
+    <button type="submit">
+        <img src="./images/bob.png" alt="제출">
+        제출
+    </button>
+    <button type="reset">
+        <img src="./images/fairy.png" alt="초기화">
+        초기화
+    </button>
+   </form>
+
+</body>
+</html>

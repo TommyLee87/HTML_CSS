@@ -8,23 +8,55 @@
             font-family:  "맑은 고딕", "Nanum Gothic", sans-serif;
         }
         .parent {
-            font-size: 1vw;
+            font-size: 16px;
+            font-weight: 100;
+            font-style: oblique;
             /* 키워드 표기법 : 150여개의 컬러 이름이 있음 */
             background-color: blanchedalmond;
         }
         .child {
-            font-size: 2vw;
+            font-size: 120%;
+            font-weight: 400;
             background-color: rgb(255,0 ,0);
         }
         .child-to-child {
-            font-size: 3vw;
+            font-size: 120%;
+            font-weight: 700;
             /* 4번째 값 : 투명도 (0~1, 1에 가까우면 불투명, 0에 가까우면 투명) */
             background-color:rgb(0, 0, 255, 0.5);
         }
-        h1 {
-            color: #f00;
+        span {
+            font-variant: small-caps;
+            text-align: center;
         }
-
+        .car-name {
+            text-align: center;
+            text-decoration: overline;
+        }
+        a {
+            text-decoration: none;
+        }
+        .test-text {
+            /* 자간 지정 : 글자 사이의 간격 */
+            letter-spacing: 0px;
+            line-height: 1.4em;
+            font-size: 20px;
+            font-weight: bold;
+            color: royalblue;
+            /* 가로 거리/ 세로 거리/ 번짐정도/ 색상 */
+            text-shadow: 1px 1px 1px #ffa500;
+        }
+        .shadow1 {
+            color: red;
+            text-shadow: 1px 1px black;
+        }
+        .shadow2 {
+            color: red;
+            text-shadow: 5px 5px 3px #ffa500;
+        }
+        .shadow3 {
+            text-shadow: 7px -7px 20px #000;
+        }
 
     </style>
 </head>
@@ -38,7 +70,22 @@
             </div>
         </div>
     </div>
-    <h1>hex값으로 색상을 지정합니다.</h1>
+    <div class="car-name">
+    <span>카이엔</span>
+    <span>파나메라</span>
+    <span>타이칸</span>
+    </div>
+
+    <a href="http://naver.com" target="_blank">네이버</a>
+
+    <p class="test-text">행복의 한 쪽 문이 닫히면 다른 쪽 문이 열린다. 
+        그러나 흔히 우리는 닫혀진 문을 오랫동안 보기 때문에 우리를 위해 
+        열려 있는 문을 보지 못한다.</p>
+
+    <h2 class="shadow1">HTML</h2>
+    <h2 class="shadow2">CSS</h2>
+    <h2 class="shadow3">자바스크립트</h2>
+
     
 </body>
 </html>

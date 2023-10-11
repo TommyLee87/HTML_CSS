@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        #container {
+            border: 1px solid grey;
+            width: 550px;
+            margin: 20 65px;
+        }
+        input[type="text"] {
+            width: 400px;
+            height: 30px;
+            margin: 0 65px;
+            padding: 10px;
+            
+        }
+        input[type="checkbox"] {
+            margin-left: 65px;
+        }
+ 
+        img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .login {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+            width: 400px;
+            height: 30px;
+            padding: 12px;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 65px;
+        }
+        .login:hover {
+            font-size: 110%;
+            font-weight: 700;
+            background-color: black;
+        }
+        .add {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+            width: 120px;
+            height: 30px;
+            padding: 5px;
+            background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            font-size: 80%;
+            font-weight: bold;
+        }
+        .add:hover {
+            font-size: 90%;
+        }
+        hr {
+            margin: 0 65px;
+        }
+        li {
+            margin: 0 40px;
+            font-size: 75%;
+        }
+        b {
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+    <form action="#">
+    <h2><img src="./images/KH2.png" alt=""></h2>
+    <p>
+    <label for="id"></label>
+    <input type="text" id="id" required placeholder="아이디 (*이메일 형식 입력불가)">
+    </p>
+    <p>
+    <label for="pwd"></label>
+    <input type="text" id="pwd" required placeholder="비밀번호">
+    </p>
+    <a class="login" href="#">로그인</a>
+    <p>
+        <input type="checkbox">
+        <label for="id">아이디저장</label>
+        <br>
+        <hr>
+    </P>  
+    <P>
+    <ul>
+        <li>수강생은  현재 페이지 https://www.kh-academy.co.kr/login/login.kh 를<br> 
+            <b>즐겨찾기 추가</b> 해주세요.</li>
+    </ul>
+    </p>
+    <p>
+    <a class="add" href="#" >즐겨찾기 추가하기</a>
+    </P>
+    </form>
+    
+</body>
+</html>

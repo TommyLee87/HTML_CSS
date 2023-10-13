@@ -2,12 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>KH교육정보원 - 마이페이지</title>
     <style>
-        * {
-            margin-left: 0;
-            padding: 0;
-        }
+
         #container {
             display: grid;
             margin: 0 auto;
@@ -25,18 +22,18 @@
             text-decoration: none;
         }
         .hd {
-            margin-left: 350px;
+            margin-left: 390px;
         }
         .sub-header {
             align-items: center;
             justify-content: center;
-            display: flex;
+            display: grid;
         }
         .ul1 {
-            margin: 0 350px;
+            margin: 0px;
             display: grid;
             grid-template-columns: 244px 244px 244px;
-            gap: 244px;
+            gap: 220px;
             height: 75px;
         }
         .box {
@@ -46,14 +43,24 @@
             justify-content: center;
         }
 
-        .drop {
-            background-color: aqua;
-        }
         .pic {
-            background-color: rgb(65, 83, 83);
+            background-image: url(./images/KH/back.jpg);
+            height: 520px;
+            background-size: cover;
         }
-        .cal {
-            background-color: rgb(153, 170, 106);
+        .myclass_info {
+            width: 100%;
+            height: auto;
+            background: #f2f5f9;
+            text-align: center;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            letter-spacing: -0.6px;
+        }
+        .mov {
+            justify-content: center;
+            align-items: center;
+            display: flex;
 
         }
         .about-kh {
@@ -67,6 +74,20 @@
         .footer {
             background-color: rgb(42, 151, 27);
         }
+        @media screen and (max-width: 800px) {
+        #container {
+            width: 100%;
+        }
+        header {
+            margin-left: -350px;
+        }
+        .ul1 {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            gap: 5px;
+            height: 75px;
+        }
+    }
 
     </style>
 </head>
@@ -98,11 +119,22 @@
                     </li>
                 </ul>
         </div>
-        
-        <div class="section drop">drop-menu</div>
-        <div class="section pic">pic</div>
-        <div class="section cal">캘린더</div>
-        <div class="section mov">동영상</div>
+        <hr>
+        <div class="dropdown">
+        </div>
+        <div class="pic">
+        </div>
+        <div class="myclass_info">
+            <h2 style="margin-bottom: 23px;">나의학사일정</h2>
+            <img src="./images/KH/calendar.png" alt="캘린더">
+        </div>
+        <div class="myclass_info" style="background: white; width: 100%; margin: 0 auto;">
+            <h2>학습동영상</h2>
+            <a href="https://www.kh-academy.co.kr/login/mediaBoardView.kh?no=44833&rnum=1&sub_no=53091"><img src="./images/KH/mov1.png" alt=""></a>
+            <a href="https://www.kh-academy.co.kr/login/mediaBoardView.kh?no=44833&rnum=1&sub_no=53091"><img src="./images/KH/mov2.png" alt=""></a>
+            <a href="https://www.kh-academy.co.kr/login/mediaBoardView.kh?no=44833&rnum=1&sub_no=53091"><img src="./images/KH/mov3.png" alt=""></a>
+        </div>
+
         <div class="section about-kh">kh어쩌고</div>
         <div class="section woosoo">우수우수</div>
         <div class="section f-menu">풋터메뉴</div>

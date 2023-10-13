@@ -5,52 +5,74 @@
     <title>Document</title>
     <style>
         * {
-            margin: 0;
+            margin-left: 0;
             padding: 0;
         }
         #container {
             display: grid;
-            width: 1920px;
             margin: 0 auto;
-            grid-template-columns: repeat(1, 1fr);
         }
-        .header {
+        header {
             background-color: black;
             font-size: small;
             display: flex;
             align-items: center;
             color: white;
-            
-        }
-        a {
-            text-decoration: none;
         }
         .head {
             color: white;
             padding: 0px 5px;
+            text-decoration: none;
         }
-        li {
-            color: black;
+        .hd {
+            margin-left: 350px;
         }
+        .sub-header {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .ul1 {
+            margin: 0 350px;
+            display: grid;
+            grid-template-columns: 244px 244px 244px;
+            gap: 244px;
+            height: 75px;
+        }
+        .box {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         .drop {
             background-color: aqua;
-
         }
         .pic {
             background-color: rgb(65, 83, 83);
         }
-        li {
+        .cal {
+            background-color: rgb(153, 170, 106);
 
         }
-        .cal {
+        .about-kh {
+            background-color: rgb(181, 231, 231);
 
+        }
+        .woosoo {
+            background-color: rgb(203, 218, 218);
+
+        }
+        .footer {
+            background-color: rgb(42, 151, 27);
         }
 
     </style>
 </head>
 <body>
     <div id="container">
-        <div class="section header">
+        <header>
             <img src="./images/KH/hd.png" class=hd>
             <a href="https://www.kh-academy.co.kr/intro/contact.kh?branch=0" class="head head1">강남</a>
             <!-- 글자로 대체 -->
@@ -59,23 +81,31 @@
              l
             <a href="https://www.kh-academy.co.kr/intro/contact.kh?branch=4" class="head head3">당산</a>
         </div>      
-        <div class="section sub-header">
-        <ul>
-            <a href="#" >
-            <img src="./images/KH/KH-tel.png" alt="tel">
-            <li><h2>1544-9970</h2></li>
-            <li><h8 style="font-size: 10px;">전국대표문의전화(연중무휴)</h8></li>
-            </a>
-        </ul>
-            <a href="https://www.kh-academy.co.kr/main/main.kh" class="sub-head2"></a>
-            <a href="https://www.kh-academy.co.kr/intro/contact.kh?branch=4" class="sub-head3"></a>
+        <div class="sub-header">
+                <ul class="ul1">
+                    <li class="box box1">
+                        <a href="#">
+                            <img src="./images/KH/KH-tel.png" alt="">
+                        </a>
+                    </li>
+                    <li class="box box2">
+                        <a href="#">
+                            <img src="./images/KH/KH.png" alt="">
+                        </a>
+                    </li>
+                    <li class="box box3">
+                        <img src="./images/KH/woosoo3.png" alt="">
+                    </li>
+                </ul>
         </div>
-        <div class="section drop">3</div>
-        <div class="section pic">4</div>
-        <div class="section cal">5</div>
-        <div class="section about-kh">6</div>
-        <div class="section woosoo">7</div>
-        <div class="section footer">8</div>
+        <div class="section drop">drop-menu</div>
+        <div class="section pic">pic</div>
+        <div class="section cal">캘린더</div>
+        <div class="section mov">동영상</div>
+        <div class="section about-kh">kh어쩌고</div>
+        <div class="section woosoo">우수우수</div>
+        <div class="section f-menu">풋터메뉴</div>
+        <div class="section footer">풋터</div>
 
     </div>
     

@@ -137,7 +137,6 @@ body {
 .hero:nth-child(32) .image {
     background-image: url(../images/overwatch/hero32.png);
 }
-
 .logo {
     max-width: 250px;
     margin: 0 auto;

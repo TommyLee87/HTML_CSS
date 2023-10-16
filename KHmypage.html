@@ -3,158 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>KH교육정보원 - 마이페이지</title>
-    <style>
-
-        #container {
-            display: grid;
-            margin: 0 auto;
-        }
-        header {
-            background-color: black;
-            font-size: small;
-            display: flex;
-            align-items: center;
-            color: white;
-        }
-        .head {
-            color: white;
-            padding: 0px 5px;
-            text-decoration: none;
-        }
-        .hd {
-            margin-left: 390px;
-        }
-        .sub-header {
-            align-items: center;
-            justify-content: center;
-            display: grid;
-        }
-        .ul1 {
-            margin: 0px;
-            display: grid;
-            grid-template-columns: 244px 244px 244px;
-            gap: 220px;
-            height: 75px;
-        }
-        .box {
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .pic {
-            background-image: url(./images/KH/back.jpg);
-            height: 520px;
-            background-size: cover;
-        }
-        .myclass_info {
-            width: 100%;
-            height: auto;
-            background: #f2f5f9;
-            text-align: center;
-            padding-top: 70px;
-            padding-bottom: 70px;
-            letter-spacing: -0.6px;
-        }
-        .mov {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-        }
-        #bottom {
-            width: max(var(--min-width-page), 100%);
-            background: #fff;
-            border-top: 1px solid #dae0e9;
-            position: relative;
-        }
-        .bottom-up {
-        width: 1130px;
-        height: 206px;
-        margin: 0 auto;
-        overflow: hidden;
-        }
-        #bottom-up>div {
-        float: left;
-        }
-        .bottom-up-tel {
-        width: 278.2px;
-        height: 206px;
-        border-left: 1px solid #dae0e9;
-        border-right: 1px solid #dae0e9;
-        text-align: center;
-        }
-        .bottom-tel {
-        width: 173px;
-        text-align: left;
-        margin: 0 auto;
-        margin-top: 44px;
-        position: relative;
-        }    
-        .actioncon {
-        position: absolute;
-        top: 10px;
-        left: 31px;
-        }
-        .bottom-tel p {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.3;
-        white-space: nowrap;
-        }
-        .bottom-tel span {
-        font-size: 12px;
-        font-weight: 400;
-        letter-spacing: 0.05em;
-        display: block;
-        margin-top: 5px;
-        }
-        .number {
-        font-size: 34px;
-        color: #ff1800;
-        font-weight: 800;
-        letter-spacing: -0.04em;
-        }   
-        .bottom_4box {
-        border-right: 1px solid #dae0e9;
-        cursor: default;
-        }   
-        .bottom-icon {
-        width: 282px;
-        height: 208px;
-        }   
-        .effect {
-        margin: 30px 0 auto;
-        text-align: center;
-        }
-
-        .about-kh {
-            background-color: rgb(181, 231, 231);
-
-        }
-        .woosoo {
-            background-color: rgb(203, 218, 218);
-
-        }
-        .footer {
-            background-color: rgb(42, 151, 27);
-        }
-        @media screen and (max-width: 800px) {
-        #container {
-            width: 100%;
-        }
-        header {
-            margin-left: -350px;
-        }
-        .ul1 {
-            display: grid;
-            grid-template-columns: 200px 200px 200px;
-            gap: 5px;
-            height: 75px;
-        }
-    }
-
-    </style>
+    <link rel="stylesheet" href="./css/KHmypage.css">
 </head>
 <body>
     <div id="container">
@@ -186,10 +35,33 @@
         </div>
         <hr>
         <div class="dropdown">
+            <ul>
+                <li class="li3">
+                    ㅣ
+                    <a href="#" class="dropdown">국비지원과정</a>
+                    ㅣ  
+                    <a href="#" class="dropdown">교육원소개</a>
+                    ㅣ
+                    <a href="#" class="dropdown">취업지원센터</a>
+                    ㅣ
+                    <a href="#" class="dropdown">프로젝트</a>
+                    ㅣ
+                    <a href="#" class="dropdown">커뮤니티</a>
+                    ㅣ
+                    <a href="#" class="dropdown">산학연계</a>
+                    ㅣ
+                    <a href="#" class="dropdown">마이페이지</a>
+                    ㅣ
+                    <a href="#" class="dropdown">상담센터</a>
+                    ㅣ
+                </li>
+            </ul>
+            
         </div>
         <div class="pic">
 
         </div>
+        <main>
         <div class="myclass_info">
             <h2 style="margin-bottom: 23px;">나의학사일정</h2>
             <img src="./images/KH/calendar.png" alt="캘린더">
@@ -200,70 +72,125 @@
             <a href="https://www.kh-academy.co.kr/login/mediaBoardView.kh?no=41316&rnum=3&sub_no=41217"><img src="./images/KH/mov2.png" alt=""></a>
             <a href="https://www.kh-academy.co.kr/login/mediaBoardView.kh?no=15673&rnum=4&sub_no=15295"><img src="./images/KH/mov3.png" alt=""></a>
         </div>
-
+        </main>
+        <hr>
         <div class="bottom">
-            <div class="bottom-up">
-                <div class="bottom-up-tel" style="cursor: pointer;">
-                    <div class="bottom-tel">
-                        <div class="actioncon">
-                            <div class="action3">
-                                <div class="loading1"></div>
-                                <div class="loading2"></div>
-                                <div class="loading3"></div>
-                            </div>
-                        </div>
-                        <img src="./images/KH/bottom_tel.png" alt="">
-                        <p>
-                            KH정보교육원
-                            <br>
-                            전국대표 문의전화
-                            <br>
-                            <span>(09:00 ~ 19:00) </span>
-                        </p>
-                    </div>
-                    <p class="number" id="bottom_t">1544-9970</p>
-                    <p class="text">주말·공휴일에도 상담 및 접수 가능합니다.</p>
-                </div>
-            <div class="bottom_4box up1">
-                <div class="bottom-icon">
-                    <div class="effect">
-                        <p class="icon" style="margin-top:0">
-                        <img src="./images/KH/bottom_icon1.png" style="margin-top:32px;">
-                        </p>
-                    </div>
-                    <p>KH SMART CAMPUS</p>
-                    <span>재직자를 위한 IT 백과사전</span>
+            <div class="bottom-top">
+                <img src="./images/KH/bottom1.png" alt="">
+            </div>
+            <div class="bottom-top text1">
+                <img src="./images/KH/bottom2.png" alt="" style="padding: 15px;"><br>
+                <b>KH SMART CAMPUS</b><br>
+                <div class="h6">
+                    재직자를 위한 IT 백과사전
                 </div>
             </div>
-            <div class="bottom_4box up2">
-                <div class="bottom-icon">
-                    <div class="effect">
-                        <div class="icon">
-                            <img src="./images/KH/bottom_icon2.png" style="margin-top:28px;">
-                        </div>
-                    </div>
-                    <p>KH 채널 ON 바로가기</p>
-                    <span>영상으로 확인하는 KH이야기</span>
+            <div class="bottom-top text1">
+                <img src="./images/KH/bottom3.png" alt="" style="padding: 15px;"><br>
+                <b>KH 채널 ON 바로가기</b><br>
+                <div class="h6">
+                    영상으로 확인하는 KH이야기
                 </div>
             </div>
-            <div class="bottom_4box up3">
-                <div class="bottom-icon">
-                    <div class="effect">
-                        <div class="icon">
-                            <img src="./images/KH/bottom_icon3.png" style="margin-top:30px;">
-                        </div>
-                    </div>
-                    <p>교육원 소개</p>
-                    <span>우수훈련기관, KH정보교육원</span>
+            <div class="bottom-top text1">
+                <img src="./images/KH/bottom4.png" alt="" style="padding: 15px;"><br>
+                <b>교육원소개</b><br>
+                <div class="h6">
+                    우수훈련기관, KH정보교육원
+                </div>
+            </div>
+        </div>   
+        <hr>
+        <div class="bottom_emblem">
+            <div class="background">
+                <div class="emble_list">
+                    <img src="./images/KH/footer_emblem_d.png" class="emblem_img">
+                    <p class="emtext">2023 당산지원<br>
+                    <h9 class="emtext2">5년 인증 우수<br>
+                    훈련기관 선정</H9>
+                    </p>
+                </div>
+                <div class="emble_list">
+                    <img src="./images/KH/footer_emblem_g.png" class="emblem_img">
+                    <p class="emtext">2022 강남지원<br>
+                    <h9 class="emtext2">5년 인증 우수<br>
+                    훈련기관 선정</h9></p>
+                </div>
+                <div class="emble_list">
+                    <img src="./images/KH/footer_emblem_j.png" class="emblem_img">
+                    <p class="emtext">2022 종로지원<br>
+                    <h9 class="emtext2">5년 인증 우수<br>
+                    훈련기관 선정</h9></p>
+                </div>
+                <div class="emble_list">
+                    <img src="./images/KH/main_bottom_emblem01.png" class="emblem_img">
+                    <p class="emtext">2020 강남지원<br>
+                    <h9 class="emtext2">5년 인증 우수<br>
+                    A등급 획득</h9></p>
+                </div>
+                <div class="emble_list">
+                    <img src="./images/KH/main_bottom_emblem02.png" class="emblem_img">
+                    <p class="emtext">2020 종로지원<br>
+                    <h9 class="emtext2">훈련 이수자 평가<br>
+                    A등급 획득</h9></p>
+                </div>
+                <div class="emble_list">
+                    <img src="./images/KH/main_bottom_emblem04.png" class="emblem_img">
+                    <p class="emtext">2019 당산지원<br>
+                    <h9 class="emtext2">훈련 이수자 평가<br>
+                    A등급 획득</h9></p>
+                </div>
+                <div class="emble_list">
+                    <img src="./images/KH/main_bottom_emblem05.png" class="emblem_img">
+                    <p class="emtext">2019 IT교육부문<br>
+                    <h9 class="emtext2">브랜드 대상<br>
+                    4년 연속 수상</h9></p>
+                </div>
+                <div class="emble_list">
+                    <img src="./images/KH/main_bottom_emblem07.png" class="emblem_img">
+                    <p class="emtext">2018 당산지원<br>
+                    <h9 class="emtext2">4차 산업 선도<br>
+                    훈련기관 선정</h9></p>
                 </div>
             </div>
         </div>
-        <div class="hr"></div>
-        <div class="section f-menu">풋터메뉴</div>
-        <div class="section footer">풋터</div>
-
-
+    <div class="footer-menu">
+        <ul>
+            <li class="li2">
+                <a href="#" class="ft-menu">이용약관</a>
+                ㅣ
+                <a href="#" class="ft-menu">개인정보처리방침</a>
+                ㅣ
+                <a href="#" class="ft-menu">인재 채용 문의</a>
+                ㅣ
+                <a href="#" class="ft-menu">훈련비 게시</a>
+                ㅣ
+                <a href="#" class="ft-menu">강사 구인</a>
+                ㅣ
+            </li>
+        </ul>
     </div>
+    <footer>
+        <p class="foot-text1">
+        KH정보교육원 l 사업자등록번호 : 851-87-00622 l 서울 강남 제2014-01호 l 대표자 : 양진선 l 책임자 : 최홍석 l  개인정보관리책임자 : 양진선<br>
+        <p class="foot-text2">
+        강남지원 1관 : 서울특별시 강남구 테헤란로14길 6 남도빌딩 2F, 3F, 4F, 5F, 6F<br>
+        강남지원 2관 : 서울특별시 강남구 테헤란로10길 9 그랑프리 빌딩 4F, 5F, 7F<br>
+        강남지원 3관 : 서울특별시 강남구 테헤란로 130 호산빌딩 5F, 6F<br>
+        종로지원 : 서울특별시 중구 남대문로 120 그레이츠 청계(구 대일빌딩) 2F, 3F<br>
+        당산지원 : 서울특별시 영등포구 선유동2로 57 이레빌딩(구관) 19F, 20F<br>
+        <p class="foot-text3">
+        Copyright © 1998-2023 KH Information Educational Institute All Right Reserved
+        </p>
+        </p>
+        </p>
+
+    </footer>
+
+
+
+
+    
     
 </body>
 </html>

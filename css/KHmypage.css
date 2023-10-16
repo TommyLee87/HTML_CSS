@@ -1,0 +1,164 @@
+#container {
+    display: grid;
+    margin: 0 auto;
+}
+header {
+    background-color: black;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.head {
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+.hd {
+    margin-left: 390px;
+}
+.sub-header {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.ul1 {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 244px 244px 244px;
+    gap: 220px;
+    height: 75px;
+}
+.box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr {
+border: 0;
+margin: 0;
+padding: 0;
+height: 1px;
+background: #dae0e9;
+width: max(var(--min-width-page), 100%);
+}
+
+.pic {
+    background-image: url(./images/KH/back.jpg);
+    height: 520px;
+    background-size: cover;
+}
+.myclass_info {
+    width: 100%;
+    height: auto;
+    background: #f2f5f9;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    letter-spacing: -0.6px;
+}
+.bottom {
+display: grid;
+justify-content: center; 
+align-items: center; 
+grid-template-columns: repeat(4, 285px); 
+gap: 0; 
+height:206px
+}
+.bottom-top {
+text-align: center; 
+height: 205px; 
+border: 1px solid #dae0e9;
+}
+.h6 {
+font-size: 12px;
+}
+.bottom_emblem {
+background: #e9ecf2;
+}
+.background {
+display: grid;
+margin-left: 390px;
+margin-right: 390px;
+grid-template-columns: repeat(8, 1fr); 
+gap: 20px;
+padding: 20px;
+}
+
+li {
+list-style: none;
+}
+.emtext {
+font-size: 75%;
+text-align:center ;
+}
+.emtext2 {
+font-size: 100%;
+text-align:center;
+}
+.emble_list {
+text-align:center;
+}
+
+.footer-menu {
+background: #f2f5f9;
+margin: 0 auto;
+padding: 0;
+}
+.ft-menu {
+    text-decoration: none;
+}
+.li2 {
+    margin-left: 330px;
+    font-size: 85%;
+    padding: 15px;;
+}
+.li3 {
+margin-left: 340px;
+font-size: 85%;
+}
+.li2 a {
+    font-weight: 700;
+    color: #666;
+}
+.li2 a:hover {
+    color: red;
+}
+footer {
+    margin-left: 380px;
+}
+.foot-text1 {
+    font-size: 78%;
+    font-weight: 550;
+}
+.foot-text2 {
+    font-size: 75%;
+}
+.foot-text3 {
+    font-size: 70%;
+}
+.dropdown {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+    color: #666;
+}
+.dropdown:hover {
+    color: red;
+}
+@media screen and (max-width: 800px) {
+#container {
+    width: 100%;
+}
+header {
+    margin-left: -350px;
+}
+.ul1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 5px;
+    height: 75px;
+}
+}

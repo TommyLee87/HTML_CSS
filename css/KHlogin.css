@@ -1,0 +1,66 @@
+#container {
+    border: 1px solid grey;
+    width: 550px;
+    margin: 20 65px;
+}
+input[type="text"] {
+    width: 400px;
+    height: 30px;
+    margin: 0 65px;
+    padding: 10px;   
+}
+input[type="checkbox"] {
+    margin-left: 65px;
+}
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.login {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 400px;
+    height: 30px;
+    padding: 12px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 65px;
+}
+.login:hover {
+    font-size: 110%;
+    font-weight: 700;
+    background-color: black;
+}
+.add {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 80%;
+    font-weight: bold;
+}
+.add:hover {
+    font-size: 85%;
+}
+hr {
+    margin: 0 65px;
+}
+li {
+    margin: 0 40px;
+    font-size: 75%;
+}
+b {
+    color: red;
+}
